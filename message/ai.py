@@ -1,6 +1,8 @@
-from message import BaseMessage
+from message import Message
 
 
-class AIMessage(BaseMessage):
+class AIMessage(Message):
+    ''' AI Message '''
+
     def __init__(self, content: str) -> None:
-        super().__init__(content, "ai")
+        super().__init__(content, 'ai')

@@ -1,8 +1,8 @@
-from typing import Literal
-
-from message import BaseMessage
+from .message import Message
 
 
-class SystemMessage(BaseMessage):
+class SystemMessage(Message):
+    ''' System Message '''
+
     def __init__(self, content: str) -> None:
-        super().__init__(content, "system")
+        super().__init__(content, 'system')

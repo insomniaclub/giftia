@@ -1,7 +1,8 @@
 from typing import Literal
 
 
-class BaseMessage:
+class Message:
+    ''' Base Message '''
 
     def __init__(self, content: str, type: str = Literal['system', 'human', 'ai']) -> None:
         self.content = content

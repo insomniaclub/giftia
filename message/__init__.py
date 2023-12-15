@@ -1,11 +1,11 @@
-from .base import BaseMessage
+from .message import Message
 from .ai import AIMessage
 from .human import HumanMessage
 from .system import SystemMessage
 
 __ALL__ = [
-    "BaseMessage",
-    "AIMessage",
-    "HumanMessage",
-    "SystemMessage",
+    'Message',
+    'AIMessage',
+    'HumanMessage',
+    'SystemMessage',
 ]
