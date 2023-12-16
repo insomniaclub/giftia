@@ -1,4 +1,4 @@
-from message import Message
+from giftia.message import Message
 
 
 class HumanMessage(Message):

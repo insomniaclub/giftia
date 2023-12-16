@@ -4,9 +4,9 @@ from typing import List
 import torch
 from transformers import AutoModel, AutoTokenizer
 
-from embedding import Embedding
-from util.device import get_torch_device
-from util.text import detect_language
+from giftia.embedding import Embedding
+from giftia.util.device import get_torch_device
+from giftia.util.text import detect_language
 
 
 _LUOTUO_MODEL_NAMES = {
